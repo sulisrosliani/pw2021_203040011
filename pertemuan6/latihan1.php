@@ -3,8 +3,8 @@
 Sulis Rosliani
 203040011
 https://github.com/sulisrosliani/pw2021_203040011
-Pertemuan 3 - 25 Februari 2021
-Mempelajari mengenai struktur kendali
+Pertemuan 6 - 10 Maret 2021
+Mempelajari mengenai Assosiative Array pada PHP
 */
 ?>
 
