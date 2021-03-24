@@ -33,17 +33,19 @@ $mahasiswa = [
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>GET</title>
 </head>
 <body>
-<h1>Daftar Mahasiswa</h1>
-<ul>
-    <?php foreach( $mahasiswa as $mhs ) : ?>
+    <h1>Daftar Mahasiswa</h1>
+    <ul>
+    <?php foreach( $mahasiswa as $mhs) : ?>
         <li>
-        <a href="latihan2.php?nama=<?= $mhs["Nama"]; ?>&Nrp=<?= $mhs["Nrp"]; ?>&Email=<?= $mhs["Email"]; ?>
-        &Jurusan=<?= $mhs["Jurusan"]; ?>&Gambar=<?= $mhs["Gambar"]; ?>"><?= $mhs["Nama"]; ?></a>
+        <a href="latihan2.php?Nama=<?= $mhs["Nama"]; ?>&Nrp=<?= $mhs["Nrp"]; ?>
+        &Email=<?= $mhs["Email"]; ?>&Jurusan=<?= $mhs["Jurusan"]; ?>
+        &gambar=<?= $mhs["gambar"]; ?>"><?= $mhs["Nama"]; ?></a>
         </li>
-    <?php endforeach; ?>
+        <?php endforeach; ?>
     </ul>
 </body>
 </html>
