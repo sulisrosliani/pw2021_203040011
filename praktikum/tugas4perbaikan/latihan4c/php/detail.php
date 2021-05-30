@@ -8,7 +8,6 @@
     $id = $_GET ['id'];
     $buku = query("SELECT * FROM buku WHERE id = $id")[0];
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

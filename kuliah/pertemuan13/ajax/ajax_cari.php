@@ -9,7 +9,6 @@ $mahasiswa = cari($_GET['keyword']);
 <th>Nama</th>
 <th>Aksi</th>
 </tr>
-
 <?php if(empty($mahasiswa)) : ?>
 <tr>
     <td colspan="4">
@@ -17,8 +16,6 @@ $mahasiswa = cari($_GET['keyword']);
     </td>
 </tr>
 <?php endif; ?>
-
-
 <?php $i = 1;
 foreach ($mahasiswa as $m) : ?>
 <tr>
@@ -30,5 +27,4 @@ foreach ($mahasiswa as $m) : ?>
 </td>
 </tr>
 <?php endforeach; ?>
-    
 </table>

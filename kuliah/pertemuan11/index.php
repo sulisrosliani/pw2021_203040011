@@ -7,7 +7,6 @@ Pertemuan 11 - 7 mei 2021
 Mempelajari mengenai Delete & Update
 */
 ?>
-
 <?php 
 require 'functions.php';
 $mahasiswa = query("SELECT * FROM mahasiswa");
@@ -16,9 +15,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 if(isset($_POST['cari'])) {
     $mahasiswa = cari($_POST['keyword']);
 }
-
  ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +43,6 @@ autofocus>
 <th>Nama</th>
 <th>Aksi</th>
 </tr>
-
 <?php if(empty($mahasiswa)) : ?>
 <tr>
     <td colspan="4">
@@ -54,8 +50,6 @@ autofocus>
     </td>
 </tr>
 <?php endif; ?>
-
-
 <?php $i = 1;
 foreach ($mahasiswa as $m) : ?>
 <tr>

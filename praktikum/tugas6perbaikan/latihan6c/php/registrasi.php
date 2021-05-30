@@ -13,7 +13,6 @@ if (isset($_POST["register"])) {
         </script>";
     }
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

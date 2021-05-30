@@ -6,7 +6,6 @@ if (!isset($_GET['id'])) {
     header("Location: index.php");
     exit;
 }
-
 // ambil iddari url
 $id = $_GET ['id'];
 
@@ -26,7 +25,6 @@ if (isset ($_POST['ubah'])) {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

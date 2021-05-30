@@ -2,7 +2,6 @@
     require 'php/functions.php';
     $buku = query("SELECT * FROM buku")
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

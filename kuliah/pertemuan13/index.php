@@ -23,9 +23,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 if(isset($_POST['cari'])) {
     $mahasiswa = cari($_POST['keyword']);
 }
-
  ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +52,6 @@ autocomplete="off" autofocus class="keyword">
 <th>Nama</th>
 <th>Aksi</th>
 </tr>
-
 <?php if(empty($mahasiswa)) : ?>
 <tr>
     <td colspan="4">
@@ -62,8 +59,6 @@ autocomplete="off" autofocus class="keyword">
     </td>
 </tr>
 <?php endif; ?>
-
-
 <?php $i = 1;
 foreach ($mahasiswa as $m) : ?>
 <tr>
